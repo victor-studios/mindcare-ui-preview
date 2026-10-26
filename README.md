@@ -18,7 +18,7 @@ Select Web app or Mobile app in the preview toolbar. URL variants:
 - `?surface=app&platform=ios`
 - `?surface=app&platform=android`
 
-Main navigation: Chat, Screening, Records, Profile. Mobile web and phone app previews use the hamburger menu for these destinations; there is no bottom navigation bar, giving chat more vertical space. Mobile app language and Light/Dark settings are in Profile. Voice-call button uses a handset icon only. Mockup shells approximate iPhone 18 Pro Max and Galaxy S26 Ultra. A single brand green (#C5EFBC) is shared by accents, controls and outgoing chat bubbles in light and dark modes. Dark text is used on green surfaces. Original chat layout, typography and rounded bubble shapes are retained.
+Main navigation: Chat, Screening, Records, Profile. Mobile web and phone app previews use the hamburger menu for these destinations; there is no bottom navigation bar, giving chat more vertical space. Mobile app language and Light/Dark settings are in Profile. Voice-call button uses a handset icon only. Mockup shells approximate iPhone 18 Pro Max and Galaxy S26 Ultra. A single brand green (#25D366) is shared by accents, controls and outgoing chat bubbles in light and dark modes. Dark text is used on green surfaces. Original chat layout, typography and rounded bubble shapes are retained.
 
 ## Developer guide
 
