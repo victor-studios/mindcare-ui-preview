@@ -105,12 +105,12 @@ body[data-surface=app] #themeToggle,
 .app.native-surface .voice-status>.language-chip{display:none!important}
 
 /* WhatsApp-inspired palette; original layout and message shapes retained. */
-:root{--brand:#25d366;--action:#25d366;--on-action:#092e17;--teal:#087c39;--sage:#e6f7e9;--bubble:#d9fdd3;--incoming:#ffffff;--message-ink:#111b21;--chat-canvas:#efeae2}
+:root{--brand:#25d366;--action:#25d366;--on-action:#092e17;--teal:#087c39;--sage:#e6f7e9;--bubble:#c5efbc;--incoming:#ffffff;--message-ink:#111b21;--chat-canvas:#efeae2}
 :root[data-theme=dark]{--brand:#25d366;--action:#25d366;--on-action:#092e17;--teal:#25d366;--sage:#29382e;--bubble:#005c4b;--incoming:#202c33;--message-ink:#e9edef;--chat-canvas:#161616}
 .brandmark{stroke:var(--brand)}.send{background:var(--brand);color:var(--on-action)}
 .live-dot{background:var(--brand)}
 .composer:focus-within,:root[data-theme=dark] .composer:focus-within{border-color:var(--brand);box-shadow:0 0 0 3px #25d36620}
-.theme-sample.light i:last-child{background:#d9fdd3}.theme-sample.dark i:last-child{background:#005c4b}
+.theme-sample.light i:last-child{background:#c5efbc}.theme-sample.dark i:last-child{background:#005c4b}
 .voice-orbit{background:radial-gradient(circle at 34% 28%,#ffffff,#e0f7e4 50%,#bcebc8)}
 
 .user-message{color:var(--message-ink)}
