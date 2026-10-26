@@ -104,13 +104,21 @@ body[data-surface=app] #themeToggle,
 .app.native-surface .conversation-language,
 .app.native-surface .voice-status>.language-chip{display:none!important}
 
-/* WhatsApp-inspired palette; original layout and message shapes retained. */
-:root{--brand:#25d366;--action:#25d366;--on-action:#092e17;--teal:#087c39;--sage:#e6f7e9;--bubble:#c5efbc;--incoming:#ffffff;--message-ink:#111b21;--chat-canvas:#efeae2}
-:root[data-theme=dark]{--brand:#25d366;--action:#25d366;--on-action:#092e17;--teal:#25d366;--sage:#29382e;--bubble:#005c4b;--incoming:#202c33;--message-ink:#e9edef;--chat-canvas:#161616}
+/* One shared brand green in both appearance modes. */
+:root,:root[data-theme=dark]{--brand:#c5efbc;--action:#c5efbc;--on-action:#111b21;--teal:#c5efbc;--sage:#c5efbc;--bubble:#c5efbc;--message-ink:#111b21}
 .brandmark{stroke:var(--brand)}.send{background:var(--brand);color:var(--on-action)}
 .live-dot{background:var(--brand)}
-.composer:focus-within,:root[data-theme=dark] .composer:focus-within{border-color:var(--brand);box-shadow:0 0 0 3px #25d36620}
-.theme-sample.light i:last-child{background:#c5efbc}.theme-sample.dark i:last-child{background:#005c4b}
-.voice-orbit{background:radial-gradient(circle at 34% 28%,#ffffff,#e0f7e4 50%,#bcebc8)}
-
+.composer:focus-within,:root[data-theme=dark] .composer:focus-within{border-color:var(--brand);box-shadow:0 0 0 3px #c5efbc20}
+.theme-sample.light i:last-child,.theme-sample.dark i:last-child{background:var(--brand)}
+.voice-orbit{background:var(--brand)}
 .user-message{color:var(--message-ink)}
+.side-nav button.active,.avatar,.badge,.record-pill,.profile-avatar,.language-option.selected,.answer.selected,.sample-options .selected,.theme-choice.selected,.call-control .selected{color:var(--on-action)}
+button:hover{color:var(--on-action)}
+.format-switch button[aria-pressed=true]{background:var(--brand);color:var(--on-action)}
+:root:not([data-theme=dark]) .welcome-kicker,:root:not([data-theme=dark]) .test-card .meta,:root:not([data-theme=dark]) .transcript .ai .who{color:var(--ink)}
+.row-icon{background:var(--brand);color:var(--on-action)}
+
+.voice-tabs,.product-switch{background:var(--surface)}
+.product-switch button[aria-pressed=true],.voice-tabs button.active{background:var(--brand);color:var(--on-action)}
+.progress{background:var(--line)}
+.theme-choice.selected small,.language-option.selected small{color:var(--on-action)}
