@@ -32,7 +32,7 @@ sidebar=()=>{
 nav=()=>{
   const n=$('#bottomnav');n.innerHTML=destinationButtons();
   n.setAttribute('aria-label',U('Main menu','مرکزی مینو'));
-  n.hidden=['patients','patient'].includes(S.screen);
+  n.hidden=S.device==='mobile'||['patients','patient'].includes(S.screen);
 };
 const surfaceContent=content;
 content=()=>{
