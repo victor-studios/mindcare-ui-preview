@@ -18,7 +18,7 @@ Select Web app or Mobile app in the preview toolbar. URL variants:
 - `?surface=app&platform=ios`
 - `?surface=app&platform=android`
 
-Main navigation: Chat, Screening, Records, Profile. Mobile web and phone app previews use the hamburger menu for these destinations; there is no bottom navigation bar, giving chat more vertical space. Mobile app language and Light/Dark settings are in Profile. Voice-call button uses a handset icon only. Mockup shells approximate iPhone 18 Pro Max and Galaxy S26 Ultra. Dark mode uses neutral charcoal with MindCare teal accents.
+Main navigation: Chat, Screening, Records, Profile. Mobile web and phone app previews use the hamburger menu for these destinations; there is no bottom navigation bar, giving chat more vertical space. Mobile app language and Light/Dark settings are in Profile. Voice-call button uses a handset icon only. Mockup shells approximate iPhone 18 Pro Max and Galaxy S26 Ultra. Brand accents use WhatsApp green (#25D366). Chat uses right-aligned outgoing bubbles (light #D9FDD3, dark #005C4B), left-aligned incoming bubbles (white / #202C33), compact corners and tails. Dark mode retains neutral charcoal surfaces.
 
 ## Developer guide
 
@@ -52,4 +52,4 @@ Import the GitHub repository in Vercel, select the Other framework preset and th
 - https://vercel.com/docs/git
 - https://vercel.com/docs/limits/fair-use-guidelines
 
-Prepared 26 October 2026.
+Updated 27 October 2026.
